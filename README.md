@@ -25,6 +25,19 @@ padding:15px;
 <tr><td><a href="abc1">401-2ac</a></td><td><a href="abc1">402-2ac</a></td><td><a href="abc1">403-2ac</a></td><td><a href="abc1">404-2ac</a></td><td><a href="abc1">405-2ac</a></td><td><a href="abc1">406-2nac</a></td><td><a href="abc1">407-2nac</a></td><td><a href="abc1">408-2nac</a></td><td><a href="abc1">409-2nac</a></td><td><a href="abc1">410-2nac</a></td></tr> 
 
 <tr><td><a href="abc">501-4ac</a></td><td><a href="abc">502-4ac</a></td><td><a href="abc">503-4ac</a></td><td><a href="abc">504-4ac</a></td><td><a href="abc">505-4ac</a></td><td><a href="abc">506-4nac</a></td><td><a href="abc">507-4nac</a></td><td><a href="abc">508-4nac</a></td><td><a href="abc">509-4nac</a></td><td><a href="abc">510-4nac</a></td></tr>
+
+<div class="quick-selection row-horizon">
+    <div class="container">
+      <div class="row row-horizon">
+        <div class="col-sm-1"><button class="A1-tile btn btn-default btn-block">A1</button></div>
+        <div class="col-sm-1"><button class="B1-tile btn btn-default btn-block">B1</button></div>
+        <div class="col-sm-1"><button class="C1-tile btn btn-default btn-block">C1</button></div>
+        <div class="col-sm-1"><button class="D1-tile btn btn-default btn-block">D1</button></div>
+        <div class="col-sm-1"><button class="E1-tile btn btn-default btn-block">E1</button></div>
+        <div class="col-sm-1"><button class="F1-tile btn btn-default btn-block">F1</button></div>
+        <div class="col-sm-1"><button class="G1-tile btn btn-default btn-block">G1</button></div>
+      </div>
+      </div>
 </table>
 </body>
 </html>
