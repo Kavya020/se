@@ -23,10 +23,10 @@ function myFunction() {
 <h1> Room Allocation</h1>
 <form id="demo" action="123.php" method="post" >
 <table>
-<tr><td>Name 1</td><td><input type="text" name="name" required pattern="^[a-zA-Z]{5,20}$"></td> <td></td><td></td><td></td> <td> Regno 1 </td><td><input type="text" name="num" required pattern="^[1-9].[a-zA-Z].[0-9]{9,9}$" </td></tr>
-<tr><td>Name 2</td><td><input type="text" name="name" required pattern="^[a-zA-Z]{5,20}$"></td><td></td><td></td><td></td> <td> Regno 2</td><td><input type="text" name="num" required pattern="^[1-9].[a-zA-Z].[0-9]{9,9}$"</td></tr> 
-<tr><td>Name 3</td><td><input type="text" name="name" required pattern="^[a-zA-Z]{5,20}$"></td><td></td><td></td><td></td> <td> Regno 3</td><td><input type="text" name="num" required pattern="^[1-9].[a-zA-Z].[0-9]{9,9}$" </td></tr>
-<tr><td>Name 4</td><td><input type="text" name="name" required pattern="^[a-zA-Z]{5,20}$"></td><td></td><td></td><td></td> <td> Regno 4</td><td><input type="text" name="num" required pattern="^[1-9].[a-zA-Z].[0-9]{9,9}$" </td></tr>
+<tr><td>Name 1</td><td><input type="text" name="name" required pattern="^[a-zA-Z]{5,20}$"></td> <td></td><td></td><td></td> <td> Regno 1 </td><td><input type="text" name="num" required pattern="^[a-zA-Z0-9]{9,9}$" </td></tr>
+<tr><td>Name 2</td><td><input type="text" name="name" required pattern="^[a-zA-Z]{5,20}$"></td><td></td><td></td><td></td> <td> Regno 2</td><td><input type="text" name="num" required pattern="^[a-zA-Z0-9]{9,9}$"</td></tr> 
+<tr><td>Name 3</td><td><input type="text" name="name" required pattern="^[a-zA-Z]{5,20}$"></td><td></td><td></td><td></td> <td> Regno 3</td><td><input type="text" name="num" required pattern="^[a-zA-Z0-9]{9,9}$" </td></tr>
+<tr><td>Name 4</td><td><input type="text" name="name" required pattern="^[a-zA-Z]{5,20}$"></td><td></td><td></td><td></td> <td> Regno 4</td><td><input type="text" name="num" required pattern="^[a-zA-Z0-9]{9,9}$" </td></tr>
 </table>
 <button type="button" onclick="myFunction()">Submit</button>
 </form>
