@@ -18,6 +18,7 @@ color:greeen;
 function myFunction() {
     document.getElementById("demo").innerHTML ="Room alloted";
 }
+</script>
 </head>
 <body bgcolor="#808080">
 <h1> Room Allocation</h1>
