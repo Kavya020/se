@@ -1,0 +1,8 @@
+create database project
+use project
+create table room (room_no int(3), type varchar(5));
+insert into room(room_no,type) values (101,"4ac"),(102,"4ac"),.....etc ;
+commit;
+select * from room;
+alter table room add status char(10);
+commit;
