@@ -15,20 +15,7 @@ else
     echo "Successfully connected";
 }
 
-if ($result=mysqli_query($con,$sql))
-  {
-  // Fetch one and one row
-  while ($row=mysqli_fetch_row($result))
-    {
-    printf ("%s (%s)\n",$row[0],$row[1]);
-    }
-  // Free result set
-  mysqli_free_result($result);
-}
-
-
-// $room_no=$_POST['room_name'];
-$sql = "UPDATE room SET status='alloted' WHERE room_no=$result";
+$sql = "UPDATE room SET status='alloted' WHERE room_no=101";
 
 if (mysqli_query($conn, $sql)) {
     echo "Room alloted ";
