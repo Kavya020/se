@@ -10,10 +10,13 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-else
-{
-    echo "Successfully connected";
-}
+
+$result = mysql_query("SELECT * FROM room");
+while($row = mysql_fetch_array($result))
+  {
+  echo $row['room_no'] . " " . $row['type'];
+  echo "<br />";
+  }
 
 $sql = "UPDATE room SET status='alloted' WHERE room_no=101";
 
