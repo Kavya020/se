@@ -18,7 +18,7 @@ while($row = mysql_fetch_array($result))
   echo "<br />";
   }
 
-$sql = "UPDATE room SET status='alloted' WHERE room_no=101";
+$sql = "UPDATE room SET status='alloted' WHERE room_no=$row['room_no']";
 
 if (mysqli_query($conn, $sql)) {
     echo "Room alloted ";
