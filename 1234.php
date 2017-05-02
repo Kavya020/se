@@ -8,7 +8,7 @@ if($link === false){
 }
  
 // Attempt update query execution
-$sql = "UPDATE persons SET status='alloted' WHERE room_no=101;
+$sql = "UPDATE room SET status='alloted' WHERE room_no=101;
 if(mysqli_query($link, $sql)){
     echo "Records were updated successfully.";
 } else {
